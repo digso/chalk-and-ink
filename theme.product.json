@@ -1,0 +1,32 @@
+{
+  "$schema": "vscode://schemas/product-icon-theme",
+  "fonts": [
+    {
+      "id": "chalk-and-ink",
+      "src": [{"path": "./fonts/chalk-and-ink.woff", "format": "woff"}]
+    }
+  ],
+  "iconDefinitions": {
+    "symbol-array": {"fontCharacter": "a", "fontId": "chalk-and-ink"},
+    "symbol-boolean": {"fontCharacter": "b", "fontId": "chalk-and-ink"},
+    "symbol-class": {"fontCharacter": "c", "fontId": "chalk-and-ink"},
+    "symbol-constant": {"fontCharacter": "c", "fontId": "chalk-and-ink"},
+    "symbol-constructor": {"fontCharacter": "c", "fontId": "chalk-and-ink"},
+    "symbol-enum": {"fontCharacter": "e", "fontId": "chalk-and-ink"},
+    "symbol-enum-member": {"fontCharacter": "e", "fontId": "chalk-and-ink"},
+    "symbol-field": {"fontCharacter": "f", "fontId": "chalk-and-ink"},
+    "symbol-function": {"fontCharacter": "f", "fontId": "chalk-and-ink"},
+    "symbol-keyword": {"fontCharacter": "k", "fontId": "chalk-and-ink"},
+    "symbol-method": {"fontCharacter": "m", "fontId": "chalk-and-ink"},
+    "symbol-module": {"fontCharacter": "m", "fontId": "chalk-and-ink"},
+    "symbol-namespace": {"fontCharacter": "n", "fontId": "chalk-and-ink"},
+    "symbol-number": {"fontCharacter": "n", "fontId": "chalk-and-ink"},
+    "symbol-numeric": {"fontCharacter": "n", "fontId": "chalk-and-ink"},
+    "symbol-parameter": {"fontCharacter": "p", "fontId": "chalk-and-ink"},
+    "symbol-property": {"fontCharacter": "p", "fontId": "chalk-and-ink"},
+    "symbol-snippet": {"fontCharacter": "s", "fontId": "chalk-and-ink"},
+    "symbol-string": {"fontCharacter": "s", "fontId": "chalk-and-ink"},
+    "symbol-text": {"fontCharacter": "s", "fontId": "chalk-and-ink"},
+    "symbol-variable": {"fontCharacter": "v", "fontId": "chalk-and-ink"}
+  }
+}

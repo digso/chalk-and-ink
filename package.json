@@ -1,0 +1,60 @@
+{
+  "name": "chalk-and-ink",
+  "displayName": "Chalk and Ink",
+  "description": "A VSCode theme extension to improve coding experience.",
+  "version": "0.0.0",
+  "private": true,
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/treeinfra/chalk-and-ink.git"
+  },
+  "engines": {
+    "vscode": "^1.90.0"
+  },
+  "contributes": {
+    "themes": [
+      {
+        "label": "Chalk",
+        "id": "chalk-and-ink-dark",
+        "uiTheme": "vs-dark",
+        "path": "./theme.dark.json"
+      }
+    ],
+    "iconThemes": [
+      {
+        "label": "Chalk and Ink",
+        "id": "chalk-and-ink-icon-theme",
+        "path": "./theme.icon.json"
+      }
+    ],
+    "productIconThemes": [
+      {
+        "label": "Chalk and Ink",
+        "id": "chalk-and-ink-product-icon-theme",
+        "path": "./theme.product.json"
+      }
+    ]
+  },
+  "scripts": {
+    "format": "prettier . --write",
+    "check": "prettier . --check",
+    "optimize": "bun optimize.ts",
+    "generate": "bun optimize && echo && bun generate.ts",
+    "package": "bun generate && echo && vsce package",
+    "node.optimize": "tsc && node optimize.js",
+    "node.generate": "npm run node.optimize && echo && node generate.js",
+    "node.package": "npm run node.generate && echo && vsce package"
+  },
+  "dependencies": {
+    "svgo": "^3.3.2",
+    "svgtofont": "^4.2.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.10",
+    "@vscode/vsce": "^2.29.0",
+    "prettier": "^3.3.2",
+    "prettier-plugin-sh": "^0.14.0",
+    "typescript": "^5.5.3"
+  }
+}

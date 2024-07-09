@@ -1,0 +1,4 @@
+semi: false
+bracketSpacing: false
+trailingComma: all
+plugins: [prettier-plugin-sh]

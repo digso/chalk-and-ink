@@ -1,0 +1,25 @@
+# Node dependencies and lockfiles.
+node_modules/
+package-lock.json
+pnpm-lock.yaml
+yarn.lock
+bun.lockb
+
+# Compilation output files.
+*.vsix
+
+# Other configurations.
+.vscode/
+.gitattributes
+.gitignore
+.prettierrc.*
+tsconfig.json
+
+# Process files.
+icons/product/
+fonts/*.svg
+fonts/*.ttf
+generate.ts
+optimize.ts
+*.js
+*.js.map

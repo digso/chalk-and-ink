@@ -1,0 +1,26 @@
+# Node dependencies and lockfiles.
+node_modules/
+package-lock.json
+pnpm-lock.yaml
+yarn.lock
+bun.lockb
+
+# Local vscode configurations.
+.vscode/
+
+# Compilation outputs.
+fonts/
+*.vsix
+*.js
+*.js.map
+
+# Code editors and platform specified files.
+.DS_Store
+.atom/
+.idea/
+.fleet/
+*.iml
+*.ipr
+*.iws
+*.sln
+*.swp
