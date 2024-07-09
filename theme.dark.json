@@ -176,6 +176,7 @@
         "punctuation.separator",
         "punctuation.terminator",
         "punctuation.accessor",
+        "source.dart",
         "source.zig",
         "variable.name.source.dart" // Dim dart comment doc symbol wrapper.
       ],
@@ -254,7 +255,7 @@
       "settings": {"foreground": "#72a97b", "fontStyle": "italic"}
     },
     {
-      "scope": ["variable", "source.dart"],
+      "scope": ["variable"],
       "settings": {"foreground": "#b8c5cb"}
     },
     {
