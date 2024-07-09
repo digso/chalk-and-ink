@@ -197,8 +197,12 @@
     },
     {
       // Build-in types.
-      "scope": ["storage.type", "support.type.primitive.ts"],
-      "settings": {"foreground": "#d17d7d"}
+      "scope": [
+        "keyword.operator",
+        "storage.type",
+        "support.type.primitive.ts"
+      ],
+      "settings": {"foreground": "#d17d7d", "fontStyle": ""}
     },
     {
       // Special characters.
