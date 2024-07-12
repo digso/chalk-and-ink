@@ -32,7 +32,7 @@
 
     // Editor background highlights.
     "editor.background": "#1d1e1f",
-    "editor.foreground": "#bcc3c6",
+    "editor.foreground": "#bab5a8",
     "editor.lineHighlightBorder": "#0000",
     "editor.lineHighlightBackground": "#121314",
     "editorBracketMatch.border": "#0078d4",
@@ -176,7 +176,6 @@
         "punctuation.separator",
         "punctuation.terminator",
         "punctuation.accessor",
-        "source.dart",
         "source.zig",
         "variable.name.source.dart" // Dim dart comment doc symbol wrapper.
       ],
