@@ -22,6 +22,7 @@
     "symbol-namespace": {"fontCharacter": "n", "fontId": "chalk-and-ink"},
     "symbol-number": {"fontCharacter": "n", "fontId": "chalk-and-ink"},
     "symbol-numeric": {"fontCharacter": "n", "fontId": "chalk-and-ink"},
+    "symbol-object": {"fontCharacter": "o", "fontId": "chalk-and-ink"},
     "symbol-parameter": {"fontCharacter": "p", "fontId": "chalk-and-ink"},
     "symbol-property": {"fontCharacter": "p", "fontId": "chalk-and-ink"},
     "symbol-snippet": {"fontCharacter": "s", "fontId": "chalk-and-ink"},

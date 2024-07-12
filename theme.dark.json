@@ -143,6 +143,7 @@
     "symbolIcon.stringForeground": "#549559",
     "symbolIcon.textForeground": "#549559",
     "symbolIcon.numberForeground": "#17b9de",
+    "symbolIcon.objectForeground": "#2db2f0",
     "symbolIcon.classForeground": "#2db2f0",
     "symbolIcon.constructorForeground": "#228fc2",
     "symbolIcon.arrayForeground": "#1a90eb",
@@ -171,6 +172,7 @@
       // Dim characters.
       "scope": [
         "meta.embedded.expression",
+        "meta.scope.logical-expression.shell",
         "punctuation.dot",
         "punctuation.definition.heading",
         "punctuation.separator",
@@ -206,7 +208,12 @@
     },
     {
       // Special characters.
-      "scope": ["keyword.operator.bitwise", "constant.character.escape"],
+      "scope": [
+        "keyword.operator.bitwise",
+        "constant.character.escape",
+        "variable.language.special.shell",
+        "variable.parameter.positional.shell"
+      ],
       "settings": {"foreground": "#eb9d44", "fontStyle": ""}
     },
     {
@@ -305,7 +312,8 @@
       "scope": [
         "entity.name.tag",
         "support.type.property-name",
-        "keyword.other.definition.ini"
+        "keyword.other.definition.ini",
+        "constant.other.option" // Shellscript args.
       ],
       "settings": {"foreground": "#9d74cc", "fontStyle": "italic"}
     }
