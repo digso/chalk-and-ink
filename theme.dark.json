@@ -185,7 +185,11 @@
     },
     {
       // Inline comment.
-      "scope": ["comment.line", "punctuation.definition.comment"],
+      "scope": [
+        "comment.line",
+        "comment.block",
+        "punctuation.definition.comment"
+      ],
       "settings": {"foreground": "#566264", "fontStyle": "italic"}
     },
     {
