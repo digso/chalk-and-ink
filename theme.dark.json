@@ -171,10 +171,13 @@
     {
       // Dim characters.
       "scope": [
+        "meta.brace", // ts brace.
         "meta.embedded.expression",
         "meta.scope.logical-expression.shell",
         "punctuation.dot",
+        "punctuation.definition.block", // ts brackets.
         "punctuation.definition.heading",
+        "punctuation.definition.template-expression", // ts template expression.
         "punctuation.separator",
         "punctuation.terminator",
         "punctuation.accessor",
