@@ -177,6 +177,7 @@
         "punctuation.dot",
         "punctuation.definition.block", // ts brackets.
         "punctuation.definition.heading",
+        "punctuation.definition.parameters", // ts parameters brackets.
         "punctuation.definition.template-expression", // ts template expression.
         "punctuation.separator",
         "punctuation.terminator",
