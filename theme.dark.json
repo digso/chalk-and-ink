@@ -171,6 +171,7 @@
     {
       // Dim characters.
       "scope": [
+        "keyword.operator.type.annotation", // ts keywords.
         "meta.brace", // ts brace.
         "meta.embedded.expression",
         "meta.scope.logical-expression.shell",
