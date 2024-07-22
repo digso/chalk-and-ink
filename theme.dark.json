@@ -157,7 +157,7 @@
   },
   "semanticHighlighting": true,
   "semanticTokenColors": {
-    "parameter.label": {"foreground": "#a4b1b7", "fontStyle": "italic"},
+    "parameter.label": {"foreground": "#8397a0", "fontStyle": "italic"},
     "parameter": {"foreground": "#a4b1b7"},
     "namespace": {"foreground": "#dbba8d", "fontStyle": "italic"},
     "class.constructor": {"foreground": "#e6ad7c", "fontStyle": "italic"},
@@ -211,7 +211,8 @@
       "scope": [
         "keyword.operator",
         "storage.type",
-        "support.type.primitive.ts"
+        "support.type.primitive.ts",
+        "entity.name.tag" // HTML and vue tags.
       ],
       "settings": {"foreground": "#d17d7d", "fontStyle": ""}
     },
@@ -319,7 +320,7 @@
     {
       // Config file tag names.
       "scope": [
-        "entity.name.tag",
+        "entity.other.attribute-name", // HTML attributes name.
         "support.type.property-name",
         "keyword.other.definition.ini",
         "constant.other.option" // Shellscript args.
