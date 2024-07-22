@@ -179,7 +179,9 @@
         "punctuation.definition.block", // ts brackets.
         "punctuation.definition.heading",
         "punctuation.definition.parameters", // ts parameters brackets.
+        "punctuation.definition.tag", // HTML tags.
         "punctuation.definition.template-expression", // ts template expression.
+        "punctuation.section.property-list", // CSS property list.
         "punctuation.separator",
         "punctuation.terminator",
         "punctuation.accessor",
@@ -209,10 +211,13 @@
     {
       // Build-in types.
       "scope": [
+        "entity.name.tag.html",
+        "entity.name.tag.template.html.vue",
+        "entity.name.tag.script.html.vue",
+        "entity.name.tag.style.html.vue",
         "keyword.operator",
         "storage.type",
-        "support.type.primitive.ts",
-        "entity.name.tag" // HTML and vue tags.
+        "support.type.primitive.ts"
       ],
       "settings": {"foreground": "#d17d7d", "fontStyle": ""}
     },
@@ -237,7 +242,7 @@
       "settings": {"foreground": "#bc9f86", "fontStyle": "italic"}
     },
     {
-      "scope": ["entity.name.function"],
+      "scope": ["entity.name.function", "entity.name.tag.css"],
       "settings": {"foreground": "#e7cc6b"}
     },
     {
@@ -290,8 +295,12 @@
       "settings": {"foreground": "#8cba78", "fontStyle": ""}
     },
     {
-      "scope": ["string"],
+      "scope": ["string", "support.constant.property-value.css"],
       "settings": {"foreground": "#72a97b"}
+    },
+    {
+      "scope": ["support.type.property-name.css"],
+      "settings": {"foreground": "#87979f", "fontStyle": "italic"}
     },
     {
       // Build-in assigner and punctuations.
@@ -311,6 +320,10 @@
     {
       "scope": ["constant.numeric"],
       "settings": {"foreground": "#30ade7", "fontStyle": ""}
+    },
+    {
+      "scope": ["keyword.other.unit"],
+      "settings": {"foreground": "#30ade7", "fontStyle": "bold"}
     },
     {
       // Markdown title and list numbers.
