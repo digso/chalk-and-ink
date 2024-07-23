@@ -211,10 +211,6 @@
     {
       // Build-in types.
       "scope": [
-        "entity.name.tag.html",
-        "entity.name.tag.template.html.vue",
-        "entity.name.tag.script.html.vue",
-        "entity.name.tag.style.html.vue",
         "keyword.operator",
         "storage.type",
         "support.type.primitive.ts"
@@ -244,6 +240,15 @@
     {
       "scope": ["entity.name.function", "entity.name.tag.css"],
       "settings": {"foreground": "#e7cc6b"}
+    },
+    {
+      "scope": [
+        "entity.name.tag.html",
+        "entity.name.tag.template.html.vue",
+        "entity.name.tag.script.html.vue",
+        "entity.name.tag.style.html.vue"
+      ],
+      "settings": {"foreground": "#c6af65", "fontStyle": "italic"}
     },
     {
       // Html and markdown normal text.
@@ -333,10 +338,11 @@
     {
       // Config file tag names.
       "scope": [
+        "constant.other.option", // Shellscript args.
+        "entity.name.tag.yaml",
         "entity.other.attribute-name", // HTML attributes name.
         "support.type.property-name",
-        "keyword.other.definition.ini",
-        "constant.other.option" // Shellscript args.
+        "keyword.other.definition.ini"
       ],
       "settings": {"foreground": "#9d74cc", "fontStyle": "italic"}
     }
