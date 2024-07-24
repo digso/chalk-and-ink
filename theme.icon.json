@@ -361,6 +361,7 @@
     "rollup.config.prod.ts": "rollup",
     "runner.rc": "mani.exe",
     "tsconfig.json": "mani.ts",
+    "tsconfig.app.json": "mani.ts",
     "tsconfig.base.json": "mani.ts",
     "tsconfig.node.json": "mani.ts",
     "vite.config.js": "vite",
