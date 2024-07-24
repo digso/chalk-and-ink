@@ -334,7 +334,7 @@
       "settings": {"foreground": "#84c9ca", "fontStyle": "italic"}
     },
     {
-      "scope": ["constant.numeric"],
+      "scope": ["constant.numeric", "constant.other.color.rgb-value.hex.css"],
       "settings": {"foreground": "#30ade7", "fontStyle": ""}
     },
     {
