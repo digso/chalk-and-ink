@@ -205,7 +205,13 @@
     },
     {
       // Keywords.
-      "scope": ["constant", "keyword", "storage.modifier.async"],
+      "scope": [
+        "constant",
+        "keyword",
+        "storage.modifier.async",
+        "storage.modifier.await",
+        "storage.modifier"
+      ],
       "settings": {"foreground": "#d17d7d", "fontStyle": "italic"}
     },
     {
@@ -246,7 +252,8 @@
         "entity.name.tag.html",
         "entity.name.tag.template.html.vue",
         "entity.name.tag.script.html.vue",
-        "entity.name.tag.style.html.vue"
+        "entity.name.tag.style.html.vue",
+        "entity.name.tag.directive.ts"
       ],
       "settings": {"foreground": "#c6af65", "fontStyle": "italic"}
     },
@@ -300,7 +307,11 @@
       "settings": {"foreground": "#8cba78", "fontStyle": ""}
     },
     {
-      "scope": ["string", "support.constant.property-value.css"],
+      "scope": [
+        "string",
+        "support.constant.property-value.css",
+        "support.constant.font-name.css"
+      ],
       "settings": {"foreground": "#72a97b"}
     },
     {
