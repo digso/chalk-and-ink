@@ -49,6 +49,7 @@
     "ttf": {"iconPath": "./icons/file/ttf.svg"},
     "txt": {"iconPath": "./icons/file/txt.svg"},
     "vite": {"iconPath": "./icons/file/vite.svg"},
+    "vitest": {"iconPath": "./icons/file/vitest.svg"},
     "vscode": {"iconPath": "./icons/file/vscode.svg"},
     "vue": {"iconPath": "./icons/file/vue.svg"},
     "woff": {"iconPath": "./icons/file/woff.svg"},
@@ -366,6 +367,8 @@
     "tsconfig.node.json": "mani.ts",
     "vite.config.js": "vite",
     "vite.config.ts": "vite",
+    "vitest.config.js": "vitest",
+    "vitest.config.ts": "vitest",
     "yarn.lock": "lock.yarn"
   }
 }
