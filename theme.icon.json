@@ -372,6 +372,10 @@
     "vite.config.ts": "vite",
     "vitest.config.js": "vitest",
     "vitest.config.ts": "vitest",
+    "vitest.projects.js": "vitest",
+    "vitest.projects.ts": "vitest",
+    "vitest.workspace.js": "vitest",
+    "vitest.workspace.ts": "vitest",
     "yarn.lock": "lock.yarn"
   }
 }
