@@ -1,6 +1,6 @@
-# Chalk and Ink
+# 粉笔墨VSCode主题插件
 
-A VSCode theme extension to improve coding experience.
+优化VSCode上开发Flutter的体验。
 
 ## Contributors
 
