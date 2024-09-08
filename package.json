@@ -7,7 +7,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/treeinfra/chalk-and-ink.git"
+    "url": "https://github.com/digso/chalk-and-ink.git"
   },
   "engines": {
     "vscode": "^1.90.0"

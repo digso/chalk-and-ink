@@ -103,6 +103,9 @@
     "gear": {"iconPath": "./icons/gear/gear.svg"},
     "gear.gradle": {"iconPath": "./icons/gear/gradle.svg"},
 
+    // Ignore files.
+    "ignore.pub": {"iconPath": "./icons/ignore/pub.svg"},
+
     // Lock-style icons.
     "lock": {"iconPath": "./icons/lock/lock.svg"},
     "lock.bun": {"iconPath": "./icons/lock/bun.svg"},
@@ -306,6 +309,7 @@
     "zip": "zip"
   },
   "fileNames": {
+    ".pubignore": "ignore.pub",
     ".prettierignore": "prettier",
     ".prettierrc": "prettier",
     ".prettierrc.js": "prettier",
