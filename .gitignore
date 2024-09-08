@@ -1,26 +1,28 @@
-# Node dependencies and lockfiles.
+# 平台特殊文件。
+.DS_Store
+
+# 代码编辑器本地配置文件。
+.atom/
+.idea/
+.fleet/
+.vscode/
+*.iml
+*.ipr
+*.iws
+*.sln
+*.swp
+
+# Node依赖项和锁文件。
+# 忽略锁文件是为了防止使用不同镜像或包管理器时潜在的合并冲突。
 node_modules/
 package-lock.json
 pnpm-lock.yaml
 yarn.lock
 bun.lockb
 
-# Local vscode configurations.
-.vscode/
-
-# Compilation outputs.
+# 编译输出文件。
+build/
 fonts/
 *.vsix
 *.js
 *.js.map
-
-# Code editors and platform specified files.
-.DS_Store
-.atom/
-.idea/
-.fleet/
-*.iml
-*.ipr
-*.iws
-*.sln
-*.swp
