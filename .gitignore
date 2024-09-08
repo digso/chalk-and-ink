@@ -21,6 +21,7 @@ yarn.lock
 bun.lockb
 
 # 编译输出文件。
+build/
 fonts/
 *.vsix
 *.js
