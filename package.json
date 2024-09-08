@@ -3,7 +3,6 @@
   "displayName": "Chalk and Ink",
   "description": "A VSCode theme extension to improve coding experience.",
   "version": "0.0.0",
-  "private": true,
   "license": "MIT",
   "repository": {
     "type": "git",
@@ -39,12 +38,12 @@
   "scripts": {
     "format": "prettier . --write",
     "check": "prettier . --check",
-    "optimize": "bun optimize.ts",
-    "generate": "bun optimize && echo && bun generate.ts",
-    "package": "bun generate && echo && vsce package",
-    "node.optimize": "tsc && node optimize.js",
-    "node.generate": "npm run node.optimize && echo && node generate.js",
-    "node.package": "npm run node.generate && echo && vsce package"
+    "tsc": "tsc -p tsconfig.json",
+    "extension": "node extension.js",
+    "optimize": "node optimize.js",
+    "generate": "node optimize && echo && node generate.js",
+    "package": "vsce package --no-dependencies",
+    "build": "npm run tsc && npm run generate && npm run package"
   },
   "dependencies": {
     "svgo": "^3.3.2",
